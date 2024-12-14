@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Flask/python_con_flask_config_install.md",
+                "file": "api/consultas/docker_install.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python_con_flask_config_install"
+              "title": "docker_install"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Flask/python_con_flask_config_install.md",
+                "file": "api/consultas/docker_install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for python_con_flask_config_install"
+              "title": "Backlinks for docker_install"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Flask/python_con_flask_config_install.md",
+                "file": "api/consultas/docker_install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from python_con_flask_config_install"
+              "title": "Outgoing links from docker_install"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Flask/python_con_flask_config_install.md"
+                "file": "api/consultas/docker_install.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of python_con_flask_config_install"
+              "title": "Outline of docker_install"
             }
           }
         ]
@@ -164,30 +164,32 @@
   },
   "active": "3069fcfbbb5622f9",
   "lastOpenFiles": [
+    "api/consultas/params.md",
+    "api/consultas/docker_install.md",
+    "PHP/Laravel/php_con_laravel_config_install.md",
+    "PHP/Laravel/php_con_laravel_path_params.md",
+    "Java/Spring/java_con_spring_config_install.md",
+    "Python/Flask/python_con_flask_config_install.md",
+    "api/consultas",
     "Python/Fastapi/python_con_fastapi_config_install.md",
     "Python/Django/python_con_django_config_install.md",
-    "PHP/Laravel/php_con_laravel_config_install.md",
     "Nodejs/Express/nodejs_con_express_config_install.md",
     "Kotlin/Spring/kotlin_con_spring_config_install.md",
     "Java/Spring/java_con_spring_path_params.md",
-    "Java/Spring/java_con_spring_config_install.md",
     "README.md",
     "Nodejs/Nest/node_con_nest_js_config_install.md",
     "Nodejs/Nest",
     "Go/Gin/golang_con_gin_config_install.md",
     "Python/Django",
-    "Python/Flask/python_con_flask_config_install.md",
     "Python/Flask",
     "Python/Fastapi",
     "api/main.py.c93fd33d695050c96a93f4bf1093b806.tmp",
     "Nodejs/Express/nodejs_con_express_path_params.md",
     "api/venv/Lib/site-packages/pip/_vendor/pygments/styles/_mapping.py",
     "Kotlin/Spring/kotlin_con_spring_path_params.md",
-    "PHP/Laravel/php_con_laravel_path_params.md",
     "PHP/Laravel",
     "Nodejs/Express",
     "Kotlin/Spring",
-    "Java/Spring",
     "Go/Gin/golang_path_params.md",
     "Python/params.md",
     "api/files/vocabulario_b1.md",
@@ -197,8 +199,6 @@
     "api/venv/Lib/site-packages/idna-3.10.dist-info/LICENSE.md",
     "Go/Welcome to GOLANG.md",
     "Untitled.md",
-    "PHP/Welcome to PHP.md",
-    "Kotlin/Welcome to Kotlin.md",
-    "Python/Welcome to Python.md"
+    "PHP/Welcome to PHP.md"
   ]
 }
