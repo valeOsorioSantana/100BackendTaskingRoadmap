@@ -7,18 +7,18 @@ Backend Tasking Roadmap with Pytnon, Node, Go, PHP, Kotlin
 |------------------|--------------------------------------------------------------------------------------------------------|------------|----------|--------|---------|------------|----------|
 | **Freshman**     |                                                                                                        |            |          |        |         |            |          |
 | 1.                  | Configurar un servidor local.                                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-| 2.                 | .                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-| 3.                 |  Leer parámetros de consulta (`query params`).                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-| 4.                  | Leer parámetros de ruta (`path params`).                                                            | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 2.                 | Leer parámetros de consulta (`query params`) y de  de ruta (`path params`)                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 3.                 | Proteger parametros de ruta y agregar headers.                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 4.                  |  Conectar el backend a una base de datos local (SQLite o PostgreSQL).                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 5.                 |  Validar datos de entrada del usuario.                                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 6.                 |  Manejar respuestas con diferentes códigos de estado (200, 404, 500).                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 7.                 |  Crear rutas básicas en un framework como FastAPI, Django, Flask o Express.js, Nest js               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-| 8.                  |  Conectar el backend a una base de datos local (SQLite o PostgreSQL).                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 8.                  |  Entender el funcionamiento del ORM.                                                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 9.                 |  Configurar controladores de rutas y definir orientación a objetos en entradas y salidas de ruta     | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 10.                 |  Implementar un CRUD básico,  Manejar solicitudes HTTP básicas (GET, POST, PUT, DELETE).            | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 11.                 |  Crear modelos de datos simples.                                                                    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-| 12.                 |  Usar variables de entorno para configuraciones sensibles y  Configurar un archivo `.gitignore`.    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-| 13.                |  Proteger claves API.                                                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 12.                 |  Proteger claves API, Usar variables de entorno para configuraciones sensibles y  Configurar un archivo `.gitignore`.    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 13.                |   Manejar archivos, creación de PDF y envío de EMAIL                                                  | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 14.                 |  Manejar excepciones.                                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 15.                 |  Loggear errores en consola.                                                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | 16.                 |  Lectura / Practica de temas especificos del framework elegido                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
@@ -40,7 +40,7 @@ Backend Tasking Roadmap with Pytnon, Node, Go, PHP, Kotlin
 |                  | 31. Integrar con APIs externas.                                                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 32. Cachear datos frecuentemente solicitados.                                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 33. Implementar paginación en endpoints.                                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 34. Manejar subidas de archivos al servidor.                                                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 34. Manejar subidas de archivos al servidor y trabajar con servicios cloud como S3.                    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 35. Implementar websockets para comunicación en tiempo real.                                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 36. Crear y usar migraciones en bases de datos con herramientas como Alembic o Sequelize.              | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 37. Monitorear logs en producción.                                                                     | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
