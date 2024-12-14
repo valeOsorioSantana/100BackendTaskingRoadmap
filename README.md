@@ -6,31 +6,31 @@ Backend Tasking Roadmap with Pytnon, Node, Go, PHP, Kotlin
 | **Nivel**       | **Tareas**                                                                                              | **Python** | **Node** | **Go** | **PHP** | **Kotlin** | **Java** |
 |------------------|--------------------------------------------------------------------------------------------------------|------------|----------|--------|---------|------------|----------|
 | **Freshman**     |                                                                                                        |            |          |        |         |            |          |
-|                  | 1. Configurar un servidor local.                                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 2. Manejar solicitudes HTTP básicas (GET, POST).                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 3. Leer parámetros de consulta (`query params`).                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 4. Leer parámetros de ruta (`path params`).                                                            | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 5. Validar datos de entrada del usuario.                                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 6. Manejar respuestas con diferentes códigos de estado (200, 404, 500).                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 7. Crear rutas básicas en un framework como FastAPI o Express.js.                                      | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 8. Conectar el backend a una base de datos local (SQLite o PostgreSQL).                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 9. Configurar controladores de rutas.                                                                  | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 10. Implementar un CRUD básico.                                                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 11. Crear modelos de datos simples.                                                                    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 12. Usar variables de entorno para configuraciones sensibles.                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 13. Proteger claves API.                                                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 14. Manejar excepciones simples.                                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 15. Loggear errores en consola.                                                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 16. Configurar un archivo `.gitignore`.                                                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 17. Implementar middlewares básicos.                                                                   | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 18. Probar rutas manualmente con Postman o curl.                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 19. Serializar datos en JSON.                                                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 20. Implementar autenticación básica con JWT o sesiones.                                              | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 21. Establecer una conexión básica entre frontend y backend.                                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 22. Manejar solicitudes CORS.                                                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 23. Configurar un servidor con nodemon o Uvicorn para autorecargar cambios.                            | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 24. Crear documentación básica de API con Swagger o Postman.                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 25. Implementar validaciones básicas usando librerías como Pydantic o Joi.                             | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 1.                  | Configurar un servidor local.                                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 2.                 | .                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 3.                 |  Leer parámetros de consulta (`query params`).                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 4.                  | Leer parámetros de ruta (`path params`).                                                            | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 5.                 |  Validar datos de entrada del usuario.                                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 6.                 |  Manejar respuestas con diferentes códigos de estado (200, 404, 500).                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 7.                 |  Crear rutas básicas en un framework como FastAPI, Django, Flask o Express.js, Nest js               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 8.                  |  Conectar el backend a una base de datos local (SQLite o PostgreSQL).                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 9.                 |  Configurar controladores de rutas y definir orientación a objetos en entradas y salidas de ruta     | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 10.                 |  Implementar un CRUD básico,  Manejar solicitudes HTTP básicas (GET, POST, PUT, DELETE).            | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 11.                 |  Crear modelos de datos simples.                                                                    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 12.                 |  Usar variables de entorno para configuraciones sensibles y  Configurar un archivo `.gitignore`.    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 13.                |  Proteger claves API.                                                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 14.                 |  Manejar excepciones.                                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 15.                 |  Loggear errores en consola.                                                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 16.                 |  Lectura / Practica de temas especificos del framework elegido                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 17.                  | Implementar middlewares básicos.                                                                   | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 18.                  | Probar rutas manualmente con Postman o curl.                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 19.                 |  Serializar datos en JSON, definir profesionalmente la estructura de un json y su comunicación con Rest | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 20.                  | Implementar autenticación básica con JWT y/o sesiones.                                              | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 21.                 |  Establecer una conexión básica entre frontend y backend.                                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 22.                 |  Manejar solicitudes CORS.                                                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 23.                  | Configurar un servidor de desarrollo e instalar dependencias ej nodemon o Uvicorn para autorecargar cambios.   | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 24.                 |  Crear documentación básica de API con Swagger, Obsidian o Postman.                                  | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+| 25.                 |  Implementar validaciones básicas usando librerías como Pydantic o Joi.                             | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | **Sophomore**    |                                                                                                        |            |          |        |         |            |          |
 |                  | 26. Configurar un servidor de producción con Nginx o Apache.                                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 27. Optimizar consultas SQL para rendimiento.                                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
