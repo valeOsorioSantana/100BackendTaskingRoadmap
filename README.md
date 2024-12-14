@@ -43,6 +43,7 @@ Backend Tasking Roadmap with Pytnon, Node, Go, PHP, Kotlin
 |                  | 34. Manejar subidas de archivos al servidor y trabajar con servicios cloud como S3.                    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 35. Implementar websockets para comunicación en tiempo real.                                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 36. Crear y usar migraciones en bases de datos con herramientas como Alembic o Sequelize.              | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 36.1. Profundizar en tematicas adicionales de BD como ACID, Transations, N+1 Problem, Normalization, Failure Modes, Profiling Perfor, Migraciones. | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 37. Monitorear logs en producción.                                                                     | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 38. Implementar un sistema de roles y permisos.                                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 39. Configurar CI/CD básico para despliegues.                                                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
@@ -52,24 +53,24 @@ Backend Tasking Roadmap with Pytnon, Node, Go, PHP, Kotlin
 |                  | 42. Desarrollar una API RESTful de múltiples recursos.                                                 | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 43. Implementar arquitectura basada en eventos (event-driven).                                         | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 44. Conectar a múltiples bases de datos (relacionales y NoSQL).                                         | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 45. Desarrollar pruebas unitarias.                                                                     | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 46. Desarrollar pruebas de integración y funcionales.                                                  | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 45. Desarrollar pruebas unitarias, de integración y funcionales                                         | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 46. Desarrollar una integración de 118n tanto en el backend como en las Bases de datos.                 | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 47. Implementar una estrategia de manejo de errores global.                                             | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 48. Usar patrones de diseño como Singleton, Factory, o Observer.                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 49. Optimizar rendimiento de bases de datos con índices.                                               | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 48. Usar patrones de diseño (e.g., Singleton, Factory, o Observer).                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 49. Optimizar rendimiento de bases de datos con índices llaves foraneas, Store producers, Functions, Sharding strategies, CAP Theorem | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 50. Usar Docker para contenedores de servicios.                                                       | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 | **Senior**      |                                                                                                        |            |          |        |         |            |          |
 |                  | 51. Desarrollar aplicaciones basadas en microservicios con patrones como CQRS (Command Query Responsibility Segregation). | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 52. Implementar servicios asíncronos con colas de trabajo (e.g., Celery, RabbitMQ, Kafka).             | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 53. Crear un API Gateway para gestionar la comunicación entre microservicios.                           | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 54. Implementar caché distribuido con Redis o Memcached.                                                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 55. Crear documentación API avanzada con herramientas como OpenAPI o RAML.                             | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 55. Crear documentación API avanzada con herramientas como OpenAPI o RAML, tambien con MKDOCS, Docusaurus.   | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 56. Usar bases de datos distribuidas y escalables (e.g., Cassandra, MongoDB).                          | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 57. Implementar integración continua avanzada (CI/CD).                                                  | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 58. Gestionar seguridad en aplicaciones web (encriptación, protección contra ataques).                | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 59. Implementar monitorización avanzada con Prometheus, Grafana, o ELK stack.                         | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 60. Crear soluciones en la nube (AWS, Google Cloud, Azure) para desplegar aplicaciones escalables.    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
-|                  | 61. Implementar control de versiones y branching avanzado con Git.                                      | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 60. Crear soluciones en la nube (AWS, Google Cloud, Azure), SaaS, IaaS Infraestructura como servicio para desplegar aplicaciones escalables.    | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
+|                  | 61. Implementar control de versiones y branching avanzado con Git. y utilizar comandos avanzados de GIT  | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 62. Desarrollar servicios RESTful optimizados para el rendimiento.                                     | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 63. Configurar servidores en la nube con herramientas como Terraform o CloudFormation.                 | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
 |                  | 64. Usar herramientas de pruebas de carga como JMeter o Gatling.                                        | 𐄂         | 𐄂       | 𐄂     | 𐄂     | 𐄂         | 𐄂       |
