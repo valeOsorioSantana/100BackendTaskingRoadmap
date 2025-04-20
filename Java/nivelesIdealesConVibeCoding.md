@@ -5,7 +5,7 @@ La progresión en la programación no es solo acumular años de experiencia, sin
 
 A continuación, redescribimos los roles:
 
-1. Newbie
+# 1. Newbie
 
 Redescription (Nivel Ideal de Productividad): En este nivel, la productividad no se mide en líneas de código, sino en la velocidad y profundidad de la adquisición de fundamentos. El Newbie ideal se sumerge activamente en los conceptos más básicos (como la metáfora del "triángulo invertido" para estructurar el pensamiento) y dedica tiempo a entender cómo funcionan los algoritmos elementales. Su enfoque productivo está en construir una base sólida para el futuro.
 Rol Ideal y Desempeño Real: La persona ideal en este rol es curiosa, persistente y no teme preguntar. Su desempeño se centra en completar ejercicios básicos, leer documentación introductoria y practicar la lógica algorítmica paso a paso. Debe ser capaz de crear listados y aplicar manualmente algoritmos sencillos para comprender su funcionamiento interno.
@@ -13,7 +13,8 @@ Uso Correcto de la IA: Como tutor interactivo: para explicar conceptos básicos 
 Uso Correcto del Vibe Coding: No aplica significativamente a este nivel. El Newbie está en una etapa de aprendizaje consciente y deliberado, no de flujo intuitivo basado en experiencia.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Copiar y pegar soluciones completas de ejercicios básicos sin entender la lógica. Usar la IA para que les "dé la respuesta" en lugar de que les "explique cómo llegar a la respuesta". Saltarse la práctica manual de algoritmos porque la IA puede generarlos. Esto genera una ilusión de progreso sin construir el conocimiento fundamental necesario.
-2. Freshman
+
+# 2. Freshman
 
 Redescription (Nivel Ideal de Productividad): La productividad se orienta a la familiarización práctica con el entorno de desarrollo y las herramientas básicas. El Freshman ideal logra configurar su espacio de trabajo de manera eficiente y completar tareas sencillas de forma autónoma una vez que se les explica el cómo. La productividad se ve en la capacidad de poner en práctica los conceptos aprendidos.
 Rol Ideal y Desempeño Real: Es un practicante proactivo. Su desempeño implica usar el entorno de desarrollo (IDE), entender la estructura básica de un proyecto simple, ejecutar código y completar pequeñas funcionalidades guiadas. Son capaces de resolver errores de sintaxis comunes por sí mismos o con mínima ayuda.
@@ -21,7 +22,8 @@ Uso Correcto de la IA: Para ayudar con la configuración del entorno ("cómo con
 Uso Correcto del Vibe Coding: Mínimo o inexistente. Aún están consolidando la conexión entre teoría y práctica.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Usar la IA para escribir la mayor parte del código de una tarea sencilla, sin intentar escribirla ellos mismos primero. Depender de la IA para depurar errores que podrían resolver leyendo el mensaje o usando el depurador básico. Esto impide desarrollar la habilidad crucial de resolver problemas y usar las herramientas de manera efectiva.
-3. Sophomore
+
+# 3. Sophomore
 
 Redescription (Nivel Ideal de Productividad): La productividad se enfoca en la integración de conceptos y el manejo de complejidad moderada. El Sophomore ideal es productivo al poder trabajar con frameworks, interactuar con bases de datos básicas y entender patrones web comunes (como REST) para construir funcionalidades con cierta guía. Son productivos en la medida que pueden ensamblar componentes preexistentes.
 Rol Ideal y Desempeño Real: Un desarrollador júnior en formación. Su desempeño implica implementar funcionalidades usando un framework conocido, escribir consultas SQL simples, entender cómo una aplicación web recibe peticiones y envía respuestas, y escribir pruebas básicas (unitarias elementales). Trabajan bien con orientación, pero pueden resolver pequeños problemas por sí mismos.
@@ -29,7 +31,8 @@ Uso Correcto de la IA: Para generar ejemplos de código usando un framework espe
 Uso Correcto del Vibe Coding: Posible en tareas repetitivas o bien definidas dentro de un framework conocido, donde la lógica es clara y la implementación se vuelve casi automática.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Usar la IA para generar consultas SQL complejas sin entender cómo funcionan o cómo optimizarlas. Pedirle a la IA que genere funcionalidades enteras que involucran varias partes (frontend/backend/DB) sin entender la interconexión. Esto les impide desarrollar un entendimiento profundo de la interacción entre los componentes y la base de datos.
-4. Junior
+
+# 4. Junior
 
 Redescription (Nivel Ideal de Productividad): La productividad alcanza un nivel significativo al poder entregar funcionalidades completas de forma autónoma. El Junior ideal es altamente productivo porque ya no necesita supervisión constante; puede tomar un requisito, diseñar una solución técnica básica y implementarla (backend, API, interfaz) utilizando patrones conocidos, interactuando con bases de datos y aplicando fundamentos de seguridad y pruebas.
 Rol Ideal y Desempeño Real: Un desarrollador confiable y autónomo dentro de su alcance. Su desempeño implica diseñar e implementar módulos completos, escribir consultas SQL complejas, usar ORMs eficientemente, aplicar principios SOLID básicos, escribir pruebas unitarias y de integración robustas, usar Git de manera fluida, y participar activamente en la revisión de código. Son capaces de leer requerimientos de negocio y traducirlos a código funcional y testeable.
@@ -37,7 +40,8 @@ Uso Correcto de la IA: Como un acelerador y explorador: para generar borradores 
 Uso Correcto del Vibe Coding: Frecuentemente aplicable cuando trabajan en funcionalidades que encajan bien dentro de su área de experiencia o usan tecnologías con las que están cómodos. Pueden entrar en un estado de flujo para implementar lógica de negocio, integrar APIs o refactorizar código bien entendido.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Generar código complejo (ej: seguridad, concurrencia, transacciones DB) y confiar ciegamente en él sin entender los riesgos o las implicaciones. Usar la IA para "saltarse" la necesidad de entender a fondo los principios de diseño (SOLID, patrones) o las consultas SQL complejas. Permitir que la IA escriba todo el código de una funcionalidad sin un proceso riguroso de revisión y comprensión, lo que lleva a código difícil de mantener y potencialmente inseguro.
-5. Semi Senior
+
+# 5. Semi Senior
 
 Redescription (Nivel Ideal de Productividad): La productividad se potencia a través de la resolución eficiente de problemas de complejidad moderada y la mentoría. El Semi Senior ideal es productivo al identificar cuellos de botella, optimizar código dentro de su ámbito, y aumentar la productividad del equipo al guiar a los Juniors y contribuir activamente a discusiones de diseño que impactan en la dirección técnica.
 Rol Ideal y Desempeño Real: Un puente técnico y mentor. Su desempeño implica abordar tareas que requieren más análisis que las de un Junior, como refactorizaciones significativas, optimizaciones de rendimiento localizadas, o la implementación de funcionalidades que cruzan varios módulos. Son capaces de dar feedback constructivo en revisiones de código y ayudar a los Juniors a superar obstáculos.
@@ -45,7 +49,8 @@ Uso Correcto de la IA: Para investigar múltiples enfoques para resolver un prob
 Uso Correcto del Vibe Coding: Muy aplicable, especialmente en tareas de refactorización, optimización, o cuando trabajan en áreas de especialización. Su experiencia les permite identificar rápidamente patrones y soluciones, facilitando el estado de flujo para implementar mejoras eficientes.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Confiar en la IA para realizar optimizaciones de rendimiento o refactorizaciones críticas sin verificar rigurosamente el resultado y el impacto en el sistema. Usar la IA para generar respuestas a preguntas de Juniors sin asegurarse de que la explicación sea correcta, completa y que ellos mismos la entiendan a fondo. Dejar que la IA "proponga" soluciones de diseño sin el filtro de su propia experiencia y conocimiento del contexto del proyecto.
-6. Senior
+
+# 6. Senior
 
 Redescription (Nivel Ideal de Productividad): La productividad es sinónimo de impacto a gran escala y mejora sistémica. El Senior ideal es extremadamente productivo porque resuelve los problemas más difíciles, diseña sistemas o componentes complejos que afectan a múltiples partes, optimiza el rendimiento a nivel de sistema y eleva el nivel técnico de todo el equipo a través de la mentoría y la evangelización de mejores prácticas. Su productividad se mide en la robustez, escalabilidad y calidad de lo que entregan y en la capacidad de hacer al equipo más eficiente.
 Rol Ideal y Desempeño Real: Un líder técnico informal y experto en la materia. Su desempeño implica liderar técnicamente funcionalidades complejas de principio a fin, resolver incidentes críticos en producción, diseñar la arquitectura de componentes clave, realizar revisiones de código de alto nivel que identifican problemas arquitectónicos o de rendimiento, e impulsar la adopción de nuevas tecnologías o metodologías dentro del equipo. Son los referentes técnicos.
@@ -53,7 +58,8 @@ Uso Correcto de la IA: Como un copiloto estratégico y de investigación intensi
 Uso Correcto del Vibe Coding: Altamente aplicable, no solo en la codificación, sino también en la fase de diseño técnico y resolución de problemas complejos. Su profundo entendimiento les permite entrar en un estado de flujo al concebir soluciones elegantes, optimizar algoritmos complejos o depurar problemas intrincados donde su intuición guiada por la experiencia es clave.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Delegar a la IA decisiones críticas de diseño arquitectónico o de seguridad. Usar la IA para escribir código en áreas de su profunda experiencia sin un análisis crítico, lo que puede llevar a soluciones subóptimas o incorrectas. Confiar en la IA para resolver problemas complejos de rendimiento o debugging sin aplicar su propio conocimiento y herramientas de análisis, atrofiando sus habilidades de resolución de problemas de élite. Exponer detalles sensibles del sistema en prompts al buscar ayuda para problemas complejos.
-7. Líder Técnico (Tech Lead)
+
+# 7. Líder Técnico (Tech Lead)
 
 Redescription (Nivel Ideal de Productividad): La productividad se mide en la eficiencia y cohesión del equipo. El Líder Técnico ideal es productivo al facilitar el trabajo de los demás, eliminar impedimentos, asegurar la calidad técnica del trabajo del equipo y guiar la dirección técnica de las iniciativas. Su productividad se refleja en la entrega exitosa de proyectos del equipo y el crecimiento de sus miembros.
 Rol Ideal y Desempeño Real: Un líder que equilibra la técnica con la gestión de personas y proyectos. Su desempeño implica planificar tareas, realizar revisiones de código que no solo buscan errores sino que también educan, mentorear activamente a todos los niveles del equipo, tomar decisiones técnicas para el equipo, y comunicar el progreso y los desafíos a stakeholders. Mantiene una conexión práctica con el código.
@@ -61,7 +67,8 @@ Uso Correcto de la IA: Para generar resúmenes de progreso o informes, para ayud
 Uso Correcto del Vibe Coding: Menos sobre la escritura intensiva de código, más sobre entrar en un estado de flujo en la resolución de problemas de equipo, la planificación técnica estratégica, o la facilitación de discusiones técnicas complejas donde su experiencia guía la conversación hacia soluciones productivas.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Usar la IA para generar resúmenes o análisis de rendimiento del equipo sin entender el contexto humano o técnico. Confiar en la IA para generar revisiones de código genéricas sin el análisis profundo y específico del líder. Exponer información sensible del equipo o del proyecto en prompts. Usar la IA para tomar decisiones técnicas por el equipo sin considerar la opinión o el contexto local.
-8. Arquitecto
+
+# 8. Arquitecto
 
 Redescription (Nivel Ideal de Productividad): La productividad es sinónimo de diseño de sistemas robustos, escalables y eficientes a gran escala. El Arquitecto ideal es productivo al crear planos técnicos claros, establecer estándares que guían a múltiples equipos y asegurar la salud y viabilidad técnica a largo plazo de la organización. Su productividad se mide en la solidez y adaptabilidad de la arquitectura.
 Rol Ideal y Desempeño Real: El visionario técnico a nivel de sistema. Su desempeño implica diseñar la estructura general de las aplicaciones y servicios, definir los patrones de comunicación entre ellos, evaluar y seleccionar tecnologías clave, establecer directrices de seguridad y rendimiento para toda la organización, y guiar a los equipos en la implementación de la visión arquitectónica.
@@ -69,7 +76,8 @@ Uso Correcto de la IA: Como un generador de ideas y un sintetizador de informaci
 Uso Correcto del Vibe Coding: Mínimamente en la escritura de código. El "vibe" se manifiesta en un estado de flujo mental profundo al concebir arquitecturas complejas, conectar sistemas, o resolver problemas de escalabilidad a nivel macro. Es un estado de diseño intuitivo y de alto nivel.
 Capa Oculta: Mal Uso de la IA:
 Manifestación: Permitir que la IA "diseñe" la arquitectura principal sin un entendimiento profundo de las necesidades del negocio, las restricciones técnicas y los trade-offs. Confiar en la IA para evaluar la seguridad o escalabilidad sin la experiencia y el análisis crítico de un arquitecto. Exponer detalles confidenciales de la infraestructura o los sistemas en prompts. Basar decisiones tecnológicas clave únicamente en recomendaciones de IA sin la debida diligencia y validación humana.
-9. Gerente (Manager)
+
+# 9. Gerente (Manager)
 
 Redescription (Nivel Ideal de Productividad): La productividad se centra en la gestión efectiva de personas, proyectos y recursos. El Gerente ideal es productivo al construir equipos de alto rendimiento, eliminar impedimentos para que los desarrolladores puedan ser productivos, asegurar la alineación entre los objetivos técnicos y de negocio, y gestionar el presupuesto y el proceso de contratación. Su productividad se mide en el éxito general y la felicidad de su equipo.
 Rol Ideal y Desempeño Real: El facilitador y estratega de personas. Su desempeño implica gestionar el desempeño individual y del equipo, planificar la hoja de ruta del proyecto, gestionar riesgos, comunicarse con stakeholders, contratar talento y fomentar una cultura de equipo positiva. Pueden tener un pasado técnico, pero su enfoque principal no es la contribución directa de código.
