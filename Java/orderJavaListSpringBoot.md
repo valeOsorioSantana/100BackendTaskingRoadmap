@@ -32,56 +32,127 @@ Control de Flujo:
 + Sentencia switch: Para múltiples opciones.
 + Bucles (Loops): for, while, do-while. Iterar sobre colecciones (bucle for mejorado).
 
-En general el cuadro que les comparti. 
-![cuadro temas básicos](https://raw.githubusercontent.com/gist/darwinyusef/eba47f6021582ef64c396193a19b232b/raw/1c16904ae99c57e51347e98a6b6468a17655d141/java.svg)
-
-Fase 2: Introducción a la Programación Orientada a Objetos (POO)
-
-Java es puramente orientado a objetos, por lo que entender estos conceptos es crucial.
-
-Clases y Objetos:
-
-¿Qué es una clase? (Plano o plantilla).
-¿Qué es un objeto? (Instancia de una clase).
-Declarar y crear objetos (new).
-Atributos (variables de instancia) y Métodos (comportamientos).
-Encapsulamiento:
-
-¿Qué es y por qué es importante?
-Modificadores de acceso (public, private, protected, default).
-Métodos "Getter" y "Setter".
-Constructores:
-
-Propósito de los constructores.
-Constructor por defecto.
-Constructores con parámetros.
-La palabra clave this.
-Fase 3: Trabajando con Datos y Funciones
-
-Métodos (Funciones):
-
-Definir métodos.
-Parámetros y argumentos.
-Tipos de retorno (void y otros tipos).
-Sobrecarga de métodos (Method Overloading).
-Métodos static y variables static.
 Arrays:
 
-¿Qué es un array? (Colección de tamaño fijo).
-Declarar, crear e inicializar arrays.
-Acceder a elementos de un array.
-Arrays multidimensionales.
++ ¿Qué es un array? (Colección de tamaño fijo).
++ Declarar, crear e inicializar arrays.
++ Acceder a elementos de un array.
++ Arrays multidimensionales.
+
 Strings:
 
 La clase String (inmutabilidad).
 Métodos comunes de la clase String (concatenar, obtener longitud, subcadenas, comparar, buscar, reemplazar, etc.).
 Fase 4: Manejo de Errores y Herramientas
 
+Funciones
+En general el cuadro que les comparti. 
+![cuadro temas básicos](https://raw.githubusercontent.com/gist/darwinyusef/eba47f6021582ef64c396193a19b232b/raw/1c16904ae99c57e51347e98a6b6468a17655d141/java.svg)
+
+Fase Final: Profundización a la Programación Orientada a Objetos (POO)
+La situación con Java a la hora de aprenderlo es que mucha gente se queda en la teoria pero no aplica estos conocimientos en casos de uso para el negocio es por esto que esta guia con java te llevará a desarrollar tus conocimientos anteriores para enfocarlos en las reglas de negocio propias a la profundización
+
+Java es puramente orientado a objetos, por lo que entender estos conceptos es crucial.
+
+Clases y Objetos:
+
++ ¿Qué es una clase? (Plano o plantilla).
++ ¿Qué es un objeto? (Instancia de una clase).
++ Declarar y crear objetos (new).
++ Atributos (variables de instancia) y Métodos (comportamientos).
+
+Encapsulamiento:
+
++ ¿Qué es y por qué es importante?
++ Modificadores de acceso (public, private, protected, default).
++ Métodos "Getter" y "Setter".
+
+Constructores:
+
++ Propósito de los constructores.
++ Constructor por defecto.
++ Constructores con parámetros.
++La palabra clave this.
+
+Fase 3: Trabajando con Datos y Funciones
+
+Métodos (Funciones):
+
++ Definir métodos.
++ Parámetros y argumentos.
++ Tipos de retorno (void y otros tipos).
++ Sobrecarga de métodos (Method Overloading).
++ Métodos static y variables static.
+
+
+Herencia (Inheritance):
+
++ Concepto: Crear nuevas clases (clase hija) basándose en clases existentes (clase padre), heredando atributos y métodos. + + + Relación "es un" (is-a).
++ La palabra clave extends.
++ Llamar al constructor de la clase padre (super()).
++ Beneficios: Reutilización de código.
+
+Polimorfismo (Polymorphism):
+
++ Concepto: "Muchas formas". Un objeto puede presentarse de diferentes maneras.
++ Sobrescritura de Métodos (Method Overriding): Definir una implementación diferente para un método heredado en la clase hija.
++ La palabra clave super (para llamar al método sobrescrito de la clase padre).
++ Concepto básico de upcasting (tratar un objeto hijo como un objeto de su clase padre).
+
+Abstracción (Abstraction):
+
++ Concepto: Ocultar la complejidad y mostrar solo las funcionalidades esenciales.
+
+Clases Abstractas:
++ Definidas con la palabra clave abstract.
++ No se pueden instanciar directamente.
++ Pueden tener métodos abstractos (sin implementación) y métodos concretos (con implementación).
++ Fuerzan a las clases hijas a implementar los métodos abstractos.
+
+Interfaces:
++ Definidas con la palabra clave interface.
++ Representan un contrato (qué debe hacer una clase).
++ Contienen constantes y métodos abstractos (antes de Java 8/9, ahora pueden tener métodos default y static).
++ Una clase puede implementar múltiples interfaces (implements).
++ Diferencias clave entre clases abstractas e interfaces.
+
+Manipulación de clases y comunicaciones entre ellas
+
+
+Trabajando con Estructuras de Datos y Utilidades Básicas integrandolos a POO
+
+Arrays:
+
+Repaso y profundización: Colecciones de tamaño fijo integrandolos a metodos de clase.
+Iterar sobre arrays (bucle for tradicional y mejorado) integrandolos a metodos de clase.
+
+Clase String:
+
+Profundizar: La clase String como tipo de referencia inmutable.
+Principales métodos para manipulación de cadenas de texto.
+Comparación de Strings (.equals(), no ==) integrandolos a metodos de clase.
+
+Clases Wrapper:
+
+¿Por qué existen? (Para tratar primitivos como objetos) integrandolos a metodos de clase.
+Conocer Integer, Double, Boolean, etc.
+Autoboxing y unboxing integrandolos a metodos de clase.
+
+
+Introducción a las Colecciones (Java Collections Framework - JCF):
+
+Concepto: Estructuras de datos dinámicas integrandolos a metodos de clase.
+Conocer las interfaces principales: List, Set, Map integrandolos a metodos de clase.
+Empezar con implementaciones comunes y simples: ArrayList (lista redimensionable) y HashMap (pares clave-valor) integrandolos a metodos de clase.
+
+
 Manejo Básico de Excepciones:
 
-¿Qué son las excepciones? (Errores en tiempo de ejecución).
-Bloques try, catch, finally.
-Excepciones comunes (ej: NullPointerException, ArrayIndexOutOfBoundsException).
+¿Qué son las excepciones? (Errores en tiempo de ejecución) integrandolos a metodos de clase. 
+Bloques try, catch, finally integrandolos a metodos de clase.
+Excepciones comunes (ej: NullPointerException, ArrayIndexOutOfBoundsException) integrandolos a metodos de clase.
+
+
 Introducción a los IDEs (Entornos de Desarrollo Integrado):
 
 ¿Por qué usar un IDE? (Autocompletado, depuración, gestión de proyectos).
