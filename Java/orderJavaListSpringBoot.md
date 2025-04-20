@@ -2,6 +2,94 @@ Es importante recordar que las fronteras entre estos niveles pueden variar liger
 
 Organización de Temas por Nivel de Experiencia
 
+NEWBIE -> JAVA
+Introducción a la Programación y a Java:
+
++ ¿Qué es programar? Conceptos muy básicos.
++ ¿Qué es Java? Su historia, filosofía (Write Once, Run Anywhere), la JVM (Java Virtual Machine) y el JRE (Java Runtime Environment) vs JDK (Java Development Kit).
++ Instalación del JDK: Descargar e instalar el kit de desarrollo.
++ Configuración del Entorno: Variables de entorno (JAVA_HOME, PATH).
+
+Tu Primer Programa ("Hola Mundo"):
+
++ Escribir, compilar (javac) y ejecutar (java) un programa simple desde la línea de comandos.
++ Entender la estructura básica de un programa Java (public class Nombre { ... }).
++ Entender el método principal (public static void main(String[] args)).
++ Imprimir en consola (System.out.println()).
+
+Conceptos Básicos del Lenguaje:
+![Basicos del lenguaje Triangulo invertido](https://private-user-images.githubusercontent.com/49506075/427801324-165e2c66-ac15-46b7-a77e-b2d9e4944ba4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMTg5ODUsIm5iZiI6MTc0NTExODY4NSwicGF0aCI6Ii80OTUwNjA3NS80Mjc4MDEzMjQtMTY1ZTJjNjYtYWMxNS00NmI3LWE3N2UtYjJkOWU0OTQ0YmE0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDIwVDAzMTEyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJkYzIwYzA3MWVkZDhkMDY5MjBhNzA5ZGJmODlmZDdjYTExOGU3NmY1OTQyNjM3YjNmOGMzNjc1MmNlYWE2ZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.nGHdAzQoR6SstqFBGudZBg98lxAbb32VL1eF4naKPIY)
+
++ Sintaxis: Puntos y comas, llaves, comentarios (línea, bloque, Javadoc).
++ Variables: Declaración, inicialización y asignación. Tipos de datos primitivos (int, double, boolean, char, etc.).
++ Literales: Cómo representar valores (números, texto, booleanos).
++ Operadores: Aritméticos (+, -, *, /, %), de comparación (==, !=, <, >, <=, >=), lógicos (&&, ||, !), de asignación (=, +=, -=, etc.).
++ Casting: Conversión entre tipos de datos.
+
+Control de Flujo:
+
++ Sentencias Condicionales: if, else if, else.
++ Sentencia switch: Para múltiples opciones.
++ Bucles (Loops): for, while, do-while. Iterar sobre colecciones (bucle for mejorado).
+
+En general el cuadro que les comparti. 
+![cuadro temas básicos](https://raw.githubusercontent.com/gist/darwinyusef/eba47f6021582ef64c396193a19b232b/raw/1c16904ae99c57e51347e98a6b6468a17655d141/java.svg)
+
+Fase 2: Introducción a la Programación Orientada a Objetos (POO)
+
+Java es puramente orientado a objetos, por lo que entender estos conceptos es crucial.
+
+Clases y Objetos:
+
+¿Qué es una clase? (Plano o plantilla).
+¿Qué es un objeto? (Instancia de una clase).
+Declarar y crear objetos (new).
+Atributos (variables de instancia) y Métodos (comportamientos).
+Encapsulamiento:
+
+¿Qué es y por qué es importante?
+Modificadores de acceso (public, private, protected, default).
+Métodos "Getter" y "Setter".
+Constructores:
+
+Propósito de los constructores.
+Constructor por defecto.
+Constructores con parámetros.
+La palabra clave this.
+Fase 3: Trabajando con Datos y Funciones
+
+Métodos (Funciones):
+
+Definir métodos.
+Parámetros y argumentos.
+Tipos de retorno (void y otros tipos).
+Sobrecarga de métodos (Method Overloading).
+Métodos static y variables static.
+Arrays:
+
+¿Qué es un array? (Colección de tamaño fijo).
+Declarar, crear e inicializar arrays.
+Acceder a elementos de un array.
+Arrays multidimensionales.
+Strings:
+
+La clase String (inmutabilidad).
+Métodos comunes de la clase String (concatenar, obtener longitud, subcadenas, comparar, buscar, reemplazar, etc.).
+Fase 4: Manejo de Errores y Herramientas
+
+Manejo Básico de Excepciones:
+
+¿Qué son las excepciones? (Errores en tiempo de ejecución).
+Bloques try, catch, finally.
+Excepciones comunes (ej: NullPointerException, ArrayIndexOutOfBoundsException).
+Introducción a los IDEs (Entornos de Desarrollo Integrado):
+
+¿Por qué usar un IDE? (Autocompletado, depuración, gestión de proyectos).
+Familiarizarse con IDEs populares como Eclipse, IntelliJ IDEA Community Edition o VS Code con extensiones de Java.
+Cómo crear un proyecto simple en un IDE.
+Depuración básica (breakpoints, paso a paso).
+
+
 Aquí se listan los temas técnicos categorizados por el nivel de experiencia típico en el que un desarrollador podría abordarlos o dominar esas habilidades.
 
 Freshman (Principiante / Junior en inicio)
@@ -9,12 +97,14 @@ Freshman (Principiante / Junior en inicio)
 Este nivel se centra en los fundamentos de la programación, el entorno de desarrollo, los conceptos web básicos y la realización de tareas sencillas bajo guía.
 
 + Configurar un servidor local.
-+ Configurar un servidor de desarrollo e instalar dependencias ej nodemon o Uvicorn para autorecargar cambios.
++ Configurar un servidor de desarrollo e instalar dependencias ej Spring Boot DevTools DEVELOPER TOOLS
+Provides fast application restarts, LiveReload, and configurations for enhanced development experience. para autorecargar cambios.
 + Probar rutas manualmente con Postman o curl.
++ Conocimientos básicos de POO y de inyección de dependencias
 + Manejar solicitudes HTTP básicas (GET, POST, PUT, DELETE).
-+ Leer parámetros de consulta (query params) y de de ruta (path params).
++ Leer parámetros de consulta (query params) y de de ruta (path params) y body params.
 + Manejar respuestas con diferentes códigos de estado (200, 404, 500).
-+ Crear rutas básicas en un framework como FastAPI, Django, Flask o Express.js, Nest js.
++ Crear rutas básicas generando inyección de dependencias en un framework .
 + Crear modelos de datos simples.
 + Conectar el backend a una base de datos local (SQLite o PostgreSQL).
 + Proteger claves API.
@@ -24,14 +114,14 @@ Este nivel se centra en los fundamentos de la programación, el entorno de desar
 + Serializar datos en JSON, definir profesionalmente la estructura de un json y su comunicación con Rest.
 + Establecer una conexión básica entre frontend y backend.
 + Validar datos de entrada del usuario.
-+ Validating Form Input (Spring).
-+ Serving Web Content with Spring MVC.
-+ Handling Form Submission (Spring).
-+ Building an Application with Spring Boot.
-+ Working a Getting Started guide with STS.
-+ Working a Getting Started guide with IntelliJ IDEA.
-+ Accessing data with MySQL.
-+ Building a Guide with VS Code.
++ Validación de la entrada de formularios
++ Presentación de contenido web con Spring MVC.
++ Gestión del envío de formularios.
++ Creación de una aplicación con Spring Boot.
++ Guía de inicio con STS > actualmente con VSCODE pluggin o itellij Idea.
++ Guía de inicio con IntelliJ IDEA.
++ Acceso a datos con MySQL/Postgresql directamente usando SQL.
++ Creación de una guía con VS Code usando README.md.
 + Lectura / Practica de temas especificos del framework elegido.
 
 
