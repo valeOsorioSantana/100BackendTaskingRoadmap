@@ -1,6 +1,9 @@
+# NewBie
++ Es un iniciante en todo el sentido de la palabra, no conoce de ningun concepto de programación ni entiende como funcionan los algoritmos, un iniciante es una persona que esta intentesada en programar pero no tiene la menor idea en lo que se va a meter ni conoce realmente a que se enfrentará en el futuro
+
 # Freshman 
 + Estudiante de primer año (Prácticas/Nivel inicial): Conceptos básicos de programación, comprensión de herramientas fundamentales, tareas sencillas, configuración del entorno de aprendizaje. Enfoque en la introducción y la comprensión de los componentes básicos.
-+ 
+  
 # Sophomore 
 Estudiante de segundo año (Desarrollador júnior): Tareas más complejas, trabajo con frameworks, interacción básica con bases de datos, comprensión de patrones web comunes (como los fundamentos de REST), fundamentos de pruebas. Puede trabajar en funcionalidades con orientación.
 
