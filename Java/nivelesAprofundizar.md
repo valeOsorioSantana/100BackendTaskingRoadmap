@@ -1,5 +1,9 @@
 # NewBie
-+ Es un iniciante en todo el sentido de la palabra, no conoce de ningun concepto de programación ni entiende como funcionan los algoritmos, un iniciante es una persona que esta intentesada en programar pero no tiene la menor idea en lo que se va a meter ni conoce realmente a que se enfrentará en el futuro
++ Es un iniciante en todo el sentido de la palabra, no conoce de ningun concepto de programación ni entiende como funcionan los algoritmos, un iniciante es una persona que esta intentesada en programar pero no tiene la menor idea en lo que se va a meter ni conoce realmente a que se enfrentará en el futuro, debe aprender todos los fundamentos, debe aprender los temás más basicos de la programación como el triangulo invertido y profundizar en la gestión de algoritmos generando un listado de los algoritmos más pupulares y aplicarlos uno a uno.
+
+  
+![Basicos del lenguaje Triangulo invertido](https://private-user-images.githubusercontent.com/49506075/427801324-165e2c66-ac15-46b7-a77e-b2d9e4944ba4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMTg5ODUsIm5iZiI6MTc0NTExODY4NSwicGF0aCI6Ii80OTUwNjA3NS80Mjc4MDEzMjQtMTY1ZTJjNjYtYWMxNS00NmI3LWE3N2UtYjJkOWU0OTQ0YmE0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDIwVDAzMTEyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJkYzIwYzA3MWVkZDhkMDY5MjBhNzA5ZGJmODlmZDdjYTExOGU3NmY1OTQyNjM3YjNmOGMzNjc1MmNlYWE2ZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.nGHdAzQoR6SstqFBGudZBg98lxAbb32VL1eF4naKPIY)
+
 
 # Freshman 
 + Estudiante de primer año (Prácticas/Nivel inicial): Conceptos básicos de programación, comprensión de herramientas fundamentales, tareas sencillas, configuración del entorno de aprendizaje. Enfoque en la introducción y la comprensión de los componentes básicos.
