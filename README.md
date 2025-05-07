@@ -9,10 +9,10 @@ Backend Tasking Roadmap -- >  ✅
 |               | Configurar un servidor local.                                                                                                                |
 |               | Leer parámetros de consulta (`query params`) y de  de ruta (`path params`)                                                                   |
 |               | Proteger parametros de ruta y agregar headers.                                                                                               |
-|               | Conectar el backend a una base de datos local (SQLite o PostgreSQL).                                                                         |
-|               | Validar datos de entrada del usuario.                                                                                                        |
-|               | Manejar respuestas con diferentes códigos de estado (200, 404, 500).                                                                         |
-|               | Crear rutas básicas en un framework como FastAPI, Django, Flask o Express.js, Nest js                                                        |
+|               | Conectar el backend a una base de datos local (SQLite o PostgreSQL) ó usar migraciones del sistema                                           |
+|               | Validar datos de entrada del usuario y trabajar con (`body params`)                                                                          |
+|               | Manejar respuestas con diferentes códigos de estado (200, 404, 500 etc).                                                                     |
+|               | Crear rutas básicas en un framework                                                                                                          |
 |               | Entender el funcionamiento del ORM.                                                                                                          |
 |               | Configurar controladores de rutas y definir orientación a objetos en entradas y salidas de ruta                                              |
 |               | Implementar un CRUD básico,  Manejar solicitudes HTTP básicas (GET, POST, PUT, DELETE).                                                      |
@@ -21,16 +21,16 @@ Backend Tasking Roadmap -- >  ✅
 |               | Manejar archivos, creación de PDF y envío de EMAIL                                                                                           |
 |               | Manejar excepciones.                                                                                                                         |
 |               | Loggear errores en consola.                                                                                                                  |
-|               | Lectura / Practica de temas especificos del framework elegido                                                                                |
+|               | Lectura / Identificación de tematicas referentes a la documentación del framework elegido en su propio sitio web documental                  |
 |               | Implementar middlewares básicos.                                                                                                             |
-|               | Probar rutas manualmente con Postman o curl.                                                                                                 |
+|               | Probar rutas manualmente con Postman o curl y/o swagger con openapi                                                                          |
 |               | Serializar datos en JSON, definir profesionalmente la estructura de un json y su comunicación con Rest                                       |
 |               | Implementar autenticación básica con JWT y/o sesiones.                                                                                       |
 |               | Establecer una conexión básica entre frontend y backend.                                                                                     |
 |               | Manejar solicitudes CORS.                                                                                                                    |
 |               | Configurar un servidor de desarrollo e instalar dependencias ej nodemon o Uvicorn para autorecargar cambios.                                 |
 |               | Crear documentación básica de API con Swagger, Obsidian o Postman.                                                                           |
-|               | Implementar validaciones básicas usando librerías como Pydantic o Joi.                                                                       |
+|               | Implementar validaciones básicas usando librerías en cada framework elegido                                                                  |
 | **Sophomore** |                                                                                                                                              |
 |               | Configurar un servidor de producción con Nginx o Apache.                                                                                     |
 |               | Optimizar consultas SQL para rendimiento.                                                                                                    |
