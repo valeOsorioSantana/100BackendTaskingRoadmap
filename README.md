@@ -6,7 +6,7 @@ Backend Tasking Roadmap -- >  ✅
 | **Nivel**     | **Tareas**                                                                                                                                   |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Freshman**  |                                                                                                                                              |
-|               | Configurar un servidor local.                                                                                                                |
+|      x        | Configurar un servidor local.                                                                                                                |
 |               | Leer parámetros de consulta (`query params`) y de  de ruta (`path params`)                                                                   |
 |               | Proteger parametros de ruta y agregar headers.                                                                                               |
 |               | Conectar el backend a una base de datos local (SQLite o PostgreSQL) ó usar migraciones del sistema                                           |
