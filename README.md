@@ -70,7 +70,7 @@ Backend Tasking Roadmap -- >  ✅
 |               | 58. Gestionar seguridad en aplicaciones web (encriptación, protección contra ataques).                                                       |
 |               | 59. Implementar monitorización avanzada con Prometheus, Grafana, o ELK stack.                                                                |
 |               | 60. Crear soluciones en la nube (AWS, Google Cloud, Azure), SaaS, IaaS Infraestructura como servicio para desplegar aplicaciones escalables. |
-|               | 61. Implementar control de versiones y branching avanzado con Git. y utilizar comandos avanzados de GIT                                      |
+|      ✅       | 61. Implementar control de versiones y branching avanzado con Git. y utilizar comandos avanzados de GIT                                      |
 |      ✅       | 62. Desarrollar servicios RESTful optimizados para el rendimiento.                                                                           |
 |               | 63. Configurar servidores en la nube con herramientas como Terraform o CloudFormation.                                                       |
 |               | 64. Usar herramientas de pruebas de carga como JMeter o Gatling.                                                                             |
